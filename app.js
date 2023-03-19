@@ -7,9 +7,9 @@ const PORT = process.env.PORT || 5000;
 
 const products_routes = require("./routes/Products")
 
-app.get("/", (req, res) => {
-    res.send("Hi, I am live");
-});
+// app.get("/", (req, res) => {
+//     res.send("Hi, I am live");
+// });
 
 app.use("/api/products", products_routes)
 
